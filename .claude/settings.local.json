@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod 755 hello.txt)",
+      "Bash(docker info:*)",
+      "Bash(docker --version)",
+      "Bash(docker run:*)",
+      "Bash(docker build:*)"
+    ]
+  }
+}

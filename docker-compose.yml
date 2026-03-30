@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    environment:
+      - APP_ENV=dev
+      - NGINX_HOST=localhost
+    volumes:
+      - ./site:/usr/share/nginx/html
+    depends_on:
+      - redis
+    networks:
+      - codyssey-net
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - codyssey-net
+
+volumes:
+  redis-data:
+
+networks:
+  codyssey-net:
+    driver: bridge
