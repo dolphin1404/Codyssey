@@ -5,7 +5,20 @@
       "Bash(docker info:*)",
       "Bash(docker --version)",
       "Bash(docker run:*)",
-      "Bash(docker build:*)"
+      "Bash(docker build:*)",
+      "Bash(curl -s http://localhost:8080)",
+      "Bash(curl -s http://localhost:8081)",
+      "Bash(docker stats:*)",
+      "Bash(docker stop:*)",
+      "Bash(docker rm:*)",
+      "Bash(docker volume:*)",
+      "Bash(docker exec:*)",
+      "Bash(MSYS_NO_PATHCONV=1 docker run --rm -v mydata:/data ubuntu cat /data/hello.txt)",
+      "Bash(git config:*)",
+      "Bash(git init:*)",
+      "Bash(git branch:*)",
+      "Bash(gh auth:*)",
+      "Bash(docker compose:*)"
     ]
   }
 }
