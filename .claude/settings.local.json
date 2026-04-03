@@ -18,7 +18,11 @@
       "Bash(git init:*)",
       "Bash(git branch:*)",
       "Bash(gh auth:*)",
-      "Bash(docker compose:*)"
+      "Bash(docker compose:*)",
+      "Bash(npm list:*)",
+      "Bash(npm install:*)",
+      "Read(//c/WorkSpace_2026/Codyssey/docs/**)",
+      "Bash(node generate-design-docx.js)"
     ]
   }
 }
