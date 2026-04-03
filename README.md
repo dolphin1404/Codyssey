@@ -270,7 +270,7 @@ Hello from Codyssey!
 $ docker rm -f vol-test
 vol-test
 
-$ MSYS_NO_PATHCONV=1 docker run --rm -v mydata:/data ubuntu cat /data/hello.txt
+$ docker run --rm -v mydata:/data ubuntu cat /data/hello.txt
 Hello from Codyssey!
 ```
 
